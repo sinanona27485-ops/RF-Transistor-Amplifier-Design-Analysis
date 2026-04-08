@@ -21,7 +21,7 @@ The circuit utilizes a voltage-divider bias configuration to establish a stable 
 * [cite_start]**DC Blocking:** 1nF capacitors at input and output ports ensure that DC bias does not affect the source or load[cite: 20, 21, 305].
 
 ### Initial Design Phase
-[**Start Circuit.pdf**](./Docs/Start%20Circuit.pdf)
+[**Start Circuit.pdf**](./Results/Start%20Circuit.pdf)
 [cite_start]*Figure 1: Initial RF Amplifier Schematic before stabilization and matching[cite: 1].*
 
 ---
@@ -39,7 +39,7 @@ The circuit utilizes a voltage-divider bias configuration to establish a stable 
 * [cite_start]**Formula:** $$R_{parallel} = \frac{1}{Y/50}$$ [cite: 116]
 
 ### Stability Verification
-[**Stability after adding the parallel resistor at the output.pdf**](./Docs/Stability%20after%20adding%20the%20parallel%20resistor%20at%20the%20output.pdf)
+[**Stability after adding the parallel resistor at the output.pdf**](./Results/Stability%20after%20adding%20the%20parallel%20resistor%20at%20the%20output.pdf)
 [cite_start]*Figure 2: Analysis of Output Stability Circles at 450 MHz after shunt resistor integration[cite: 61, 114].*
 
 ---
@@ -49,8 +49,8 @@ The circuit utilizes a voltage-divider bias configuration to establish a stable 
 [cite_start]Post-stabilization, the input and output networks were matched to a 50$\Omega$ system[cite: 1, 306, 307].
 
 ### Matching Workflow
-1. [cite_start][**input smith.pdf**](./Docs/input%20smith.pdf) - Smith Chart derivation for input port matching[cite: 265, 266].
-2. [cite_start][**output smith.pdf**](./Docs/output%20smith.pdf) - Smith Chart derivation for output port matching[cite: 274, 282].
+1. [cite_start][**input smith.pdf**](./Results/input%20smith.pdf) - Smith Chart derivation for input port matching[cite: 265, 266].
+2. [cite_start][**output smith.pdf**](./Results/output%20smith.pdf) - Smith Chart derivation for output port matching[cite: 274, 282].
 
 ### Simulation Results
 
@@ -59,8 +59,8 @@ The circuit utilizes a voltage-divider bias configuration to establish a stable 
 * **Design Insight:** For the output port, a **1nF series capacitor** was placed between the parallel inductor and ground[cite: 285]. This blocks the DC path to ground while allowing for precise RF impedance matching[cite: 285].
 
 ### Final Performance
-* [**s 11 s 22 after imp+tune.pdf**](./Docs/s%2011%20s%2022%20after%20imp+tune.pdf)
-* [**Final circuit.pdf**](./Docs/Final%20circuit.pdf)
+* [**s 11 s 22 after imp+tune.pdf**](./Results/s%2011%20s%2022%20after%20imp+tune.pdf)
+* [**Final circuit.pdf**](./Results/Final%20circuit.pdf)
 *Figure 3: Optimized $S_{11}$ and $S_{22}$ response and final circuit architecture[cite: 239, 284].*
 
 ---
