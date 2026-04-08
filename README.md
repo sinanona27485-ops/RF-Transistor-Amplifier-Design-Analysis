@@ -2,7 +2,7 @@
 
 This repository showcases the complete design cycle of an RF Transistor Amplifier optimized for the **450 MHz** band. The project focuses on the critical balance between gain, port matching, and unconditional stability using **Ansoft Designer**.
 
-## 🚀 Technical Summary
+## Technical Summary
 
   * [cite_start]**Operating Frequency:** 450 MHz[cite: 107, 109].
   * [cite_start]**Architecture:** BJT/FET Discrete Amplifier with Lumped Element Matching[cite: 1, 284].
@@ -11,7 +11,7 @@ This repository showcases the complete design cycle of an RF Transistor Amplifie
 
 -----
 
-## 🛠 DC Bias & Schematic Design
+## DC Bias & Schematic Design
 
 The circuit utilizes a voltage-divider bias configuration to establish a stable operating point ($I_C, V_{CE}$).
 
@@ -24,7 +24,7 @@ The circuit utilizes a voltage-divider bias configuration to establish a stable 
 
 -----
 
-## 📉 Stability Analysis & Stabilization
+## Stability Analysis & Stabilization
 
 A primary focus of this design was ensuring **unconditional stability** ($K > 1$).
 
@@ -40,7 +40,7 @@ A primary focus of this design was ensuring **unconditional stability** ($K > 1$
 
 -----
 
-## 🎯 Impedance Matching & S-Parameters
+## Impedance Matching & S-Parameters
 
 [cite_start]Post-stabilization, the input and output networks were matched to a 50$\Omega$ system[cite: 1, 25].
 
@@ -54,7 +54,7 @@ A primary focus of this design was ensuring **unconditional stability** ($K > 1$
 
 -----
 
-## 📂 Repository Contents
+## Repository Contents
 
   * `/Project_Files`: Ansoft Designer (Nexxim) project files.
   * `/Results`: High-resolution S-parameter plots and stability circles.
