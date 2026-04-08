@@ -52,6 +52,19 @@ A primary focus of this design was ensuring **unconditional stability** ($K > 1$
 
 [cite_start]*Figure 3: Optimized $S_{11}$ and $S_{22}$ after simultaneous tuning[cite: 239, 246].*
 
+## How to Use and Transistor Customization
+To replicate or modify this simulation:
+
+Software: Open the project file in Ansoft Designer.
+
+Transistor Model:
+
+The design is built around a specific transistor model provided in the repository.
+
+To change the transistor: Users must update the component path within the Ansoft Designer properties to point to their local .s2p or device model file.
+
+Note: Changing the transistor will likely shift the stability and matching points, requiring a re-tuning of the parallel resistor and LC network.
+
 -----
 
 ## Repository Contents
