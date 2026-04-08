@@ -57,7 +57,7 @@ To replicate or modify this simulation:
 
 Software: Open the project file in Ansoft Designer.
 
-Transistor Model:
+Transistor Model: BFR93A
 
 The design is built around a specific transistor model provided in the repository.
 
