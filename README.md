@@ -62,7 +62,7 @@ A primary focus of this design was ensuring **unconditional stability** ($K > 1$
 
 -----
 
-## 👨‍💻 Author
+## Author
 
 **Sinan ONA**
 *3rd-year Electrical and Electronics Engineering Student*
